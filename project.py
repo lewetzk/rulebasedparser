@@ -32,15 +32,7 @@ class RuleBasedParser():
         self._count_bigrams(self._count_words_gen_bigrams())
         self._write_stats_to_csv("bigrams.csv", True)
         self._write_stats_to_csv("tokens.csv", False) 
-        for instruct in self.raw_instructions:
-            for block_string in re.findall(r'block \d+', instruct):
-                num = re.findall(r'\d+', block_string)
-                if instruct not in self.blocks.keys():
-                    self.blocks[instruct] = [num[0]]
-                else:
-                    if num[0] not in self.blocks[instruct]:
-                        self.blocks[instruct].append(num[0])
-        return self.blocks
+        self._tag_instruct_blocks()
     
     def _tag_instruct_blocks(self):
         for raw_instr in self.raw_instructions:
@@ -54,9 +46,12 @@ class RuleBasedParser():
                         self.blocks[raw_instr]['goal'] = split_instr[i]
                     if split_instr[i-1] in self.area_contexts:
                         self.blocks[raw_instr]['area'] = split_instr[i]
-                else:
-                    pass
-                    
+            if block_nums != []:
+                for key, value in self.blocks.items():
+                    if self.blocks[key]['goal'] == '':
+                        self.blocks[key]['goal'] = block_nums[0]
+                    if self.blocks[key]['area'] == '':
+                        self.blocks[key]['area'] = block_nums[-1]          
                 
     def _read_from_txt(self):
         """Method that reads a txt containing instructions, extracts and cleans
@@ -74,9 +69,11 @@ class RuleBasedParser():
             logging.error("txt-file containing instructions was not found.")
         with open(self.filename, "r", encoding = "utf-8") as txt_file:
             for line in txt_file:
+                raw_line = line.rstrip("\n")
+                self.raw_instructions.append(raw_line)
+                # raw instructions used as the key of the self.blocks dict
                 strip_line = line.rstrip(".\n")
                 # strip newline and dots
-                self.raw_instructions.append(strip_line)
                 # raw instructions used as the key of the self.blocks dict
                 # later
                 strip_line = re.sub(r'[^\w\s]', '', strip_line)
@@ -116,29 +113,49 @@ class RuleBasedParser():
                 
     def _write_stats_to_csv(self, filename, is_bigram):
         with open(filename, mode="w", encoding="utf-8",
-                  newline="\n") as subset_file:
-            subset_writer = csv.writer(subset_file, delimiter=",",
+                  newline="\n") as stats_file:
+            stats_writer = csv.writer(stats_file, delimiter=",",
                                         quotechar='"',
                                         quoting=csv.QUOTE_MINIMAL)
             if is_bigram == True:
             # for bigram csv
                 for bigram in self.sorted_bigrams:
-                    subset_writer.writerow([bigram[0], bigram[1]])
+                    stats_writer.writerow([bigram[0], bigram[1]])
 
             else:
             # for token csv
                 for token in sorted(self.token_counter.items(), 
                                     key = lambda x : x[1], reverse = True):
-                    subset_writer.writerow([token[0], token[1]])
+                    stats_writer.writerow([token[0], token[1]])
                     
     def _write_results_to_csv(self):
-        pass
+        with open(filename, mode="w", encoding="utf-8",
+                  newline="\n") as results_file:
+            pass
     
-    def _make_block_dict(self, instr):
-        for instruct in self.raw_instructions:
-            self.blocks[instruct] = {'goal' : '', 'area' : ''}
+    def _calculate_f1(self, gold_name):
+        with open(gold_name, mode = "r", encoding = "utf-8", 
+                  newline = "\n") as gold_file:
+            correct_blocks = 0
+            total_answers = 0
+            total_blocks = 0
+            for line in gold_file:
+                split_line = line.split(";")
+                if split_line[0] in self.blocks.keys():
+                    if self.blocks[split_line[0]]['goal'] != '':
+                        total_answers += 1
+                    if self.blocks[split_line[0]]['area'] != '':
+                        total_answers += 1
+                    if self.blocks[split_line[0]]['goal'] == split_line[1]:
+                        correct_blocks += 1
+                    if self.blocks[split_line[0]]['area'] == split_line[2].rstrip("\r\n"):
+                        correct_blocks += 1
+                    total_blocks += len(split_line[1]) + len(split_line[2].rstrip("\r\n").split(","))
+        recall = correct_blocks/total_blocks
+        precision = correct_blocks/total_answers
+        return precision
             
 if __name__ == "__main__":
     rbp = RuleBasedParser("instructions.txt")
-    print(rbp.parse())
-    rbp._tag_instruct_blocks()
+    rbp.parse()
+    print(rbp._calculate_f1("gold_standard.csv"))
