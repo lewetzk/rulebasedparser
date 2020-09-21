@@ -1,0 +1,653 @@
+Move 6 so it is in the middle of the bottom edge of the table
+Move 11 so it is to the right of 6
+Move 10 so it is above 11
+Move 9 so it is above 10
+Move 8 so it is above 9
+Move 15 so it is to the right of 8
+Move 14 so it is above 15
+Move 13 so it is above 14
+Move 18 so it is above and to the right of 13
+Move block 17 above block 18.
+Move block 16 above block 17.
+Move block 12 to the left of block 16.
+Move block 7 to the left of block 12.
+Move block 5 to the left of block 7.
+Move block 4 to the left of block 5.
+Move block 3 to the left of block 4.
+Move block 2 to the left of block 3.
+Move block 1 to the left of block 2.
+move block one so it's three columns to the left of block 14
+move block 2 one row below block 1
+move block three to the bottom of the column of 1 and 2
+move block 7 so it's left side touches the right side of block 3
+move block 11 below block 10
+move block 12 below block 11
+move block 8 two rows below block 7
+move block 4 three rows below block 3
+slide block 5 to the left four columns
+Move block 10 to the column to the right of block 17, and one and a half rows above block 6.
+Move block 15 to the right of block 10.
+Move block 14 above block 15.
+Move block 18 above and to the right of block 14.
+Move block 17 above block 18.
+Move block 16 above block 17.
+Move block 13 to the left of block 16.
+Move block 9 below and to the left of block 13.
+Move block 6 below and to the left of block 9.
+Move 15 so it is two block lengths below 1
+Move 1 so it is to the right of 2. There should be half a block length between 2 and 1, and the bottom edge of 1 should be about a quarter block length higher than 2's block length
+Move 3 so it is to the right of 1
+Move 2 so it is above 3
+Move 6 so it is to the right of 2
+Move 5 so it is above 6
+Move 4 so it is bove 5
+Move 9 so it is to the right of 4 and below and to the left of 15
+Move  8 so it is above 9
+Move 7 so it is above 8
+Move 14 so it is to the right of 7
+Move 13 so it is above 14
+Move 12 so it is above 13
+Move 11 so it is above 12
+Move 10 so it is above 11
+Move box 5 from the top right of box 11 to above box 14 in the middle with a small space.
+Move box 4 from the bottom left corner to the middle of the mat. Position it so that it lines up above boxes 5 and 14. There should be about 3 box lengths between boxes 4 and 5.
+Move box 3 from the middle area, just to the right of box 4. Place it so that it lines up directly above box 4.
+Move box 7 from lower part of the middle of the mat to the top right corner of box 3 with their corners nearly touching.
+Move box 11 from the bottom left corner to be lined up directly to the right of box 7.
+Move box 15 from the middle of the mat, just to the right of box 5 to be lined up directly to the right of box 11.
+Move box 19 from the middle of the right edge to the bottom right corner of box 15 so that their corners nearly touch.
+Move box 20 from the middle of the left edge to be lined up directly below box 19.
+Move box 16 from the top right corner to the bottom left corner of box 20 so their corners nearly touch.
+Move box 12 from the top right corner to be lined up directly to the left of box 16.
+Move block 8 to the left of block 12.
+Move block 9 below block 8.
+Move block 13 to the right of block 9.
+Move block 17 below and to the right of block 13.
+Move block 18 below block 17.
+Move block 14 below and to the left of block 18.
+Move block 10 below and to the left of block 14.
+Move block 6 to the left of block 10.
+Move block 2 above and to the left of block 6.
+Move block 1 above block 2.
+Move block 13 above block 14.
+Move block 12 above block 13.
+Move block 11 above block 12.
+Move block 7 to the left of block 11.
+Move block 3 to the left of block 7.
+Move block 2 below and to the left of block 3.
+Move block 1 to the left of block 2.
+Move the 15 block so that it is on the same horizontal line as 11 and same vertical line as 10
+Move the 6 block so that it is on the bottom row in the same vertical line as block 4
+Move block 5 so that it is just above block 6
+Move block 4 so that it is just above block 5
+Move block 10 so that it is just to the right of block 4
+Move block 9 so that it is just above block 10
+Move block 8 so that it is just above block 9
+Move block 14 so that it is touching block 8's top corner on the right
+Move box 18 to the upper right area. The bottom of box 18 should be lined up with the top of box 5 and there should be a small gap between the two.
+Find box 19 in the bottom left corner. Place its bottom left corner directly adjacent to box 18’s top right corner.
+Find box 17 in the middle of the right side. Place it so that it lines up directly to the left of box 19 and above box 18.
+Find box 13 in the middle. Place it to the left and lined up with boxes 17 and 19.
+Find box 2 in the lower right. Place its top left corner adjacent to box 14’s bottom right corner.
+Find box 5 on the right side. Place it lined up directly to the right of box 2.
+Find box 4 at the bottom . Place it directly above and lined up with box 5.
+Find box 7 in the top left corner. Place it lined up directly to the right of box 4.
+Find box 10 along the right edge. Place it  so that it lines up to the right of box 7 with its top right corner adjacent to box 13’s bottom left corner.
+Find box 14 on the left side. Place it between boxes 18 and 10 and below box 17. The box should line up with the ones already there.
+Move the 15 block right under the 14 block.
+Move the 16 block so that it is right under the 15 block.
+Move the 11 block so that its right side is connected to the 16 block.
+Move the 12 so that it is right under the 11 block.
+move the 8 block so that its right side is connected to the 12 block.
+move the 9 block so that it is right under the 8 block.
+Move the 6 block so that the top right corner is touching the 9 block.
+Move the 3 block so that the right corner is touching the 9.
+Move the 1 so that the top right corner is touching the 6.
+Put the next odd number to the right of the 3 block.
+Put the next odd number to the right of the 5 block.
+Put the next odd number to the right of the 7 block.
+Put the 10 block directly below the 9 block.
+Put the 11 block directly below the 10 block.
+put the 12 block directly below the 11 block.
+Put the 13 block directly below the 12 block.
+Put the 17 block directly below 13, and then push it one square right.
+Move block 16 to the same column as block 17, and a quarter of a row above block 8.
+Move block 15 above block 16.
+Move block 14 above block 15.
+Move block 8 above and to the left of block 14.
+Move block 6 below and to the left of block 8.
+Move block 4 below and to the left of block 6.
+Move block 1 two block spaces below and to the left of block 4.
+Move block 2 below and to the left of block 4.
+Move block 3 below block 2.
+Move 20 so it is below and to the right of 16
+Move 17 so it is to the left of 16
+Move 18 so it is below 17
+Move 14 so it is to the left of 16
+Move 11 so it is below and to the left of 14
+Move 8 so it is to the left of 11
+Move 5 so it is above and to the left of 8
+Move 3 so it is to the left of 5
+Move 1 so it is above and to the left of 3
+Move 2 so it is above and to the right of 1
+Move 19 so it is one block below the top of the table and one block to the left of the right side of the table
+Position 15 so it is to the left of 19
+Position 12 so it is below and to the left of 15
+Move 9 so it is to the left of 12
+Position 6 so it is to the left of 9
+Move 4 so it is below and to the left of 6
+Move 7 so it is below and to the right of 4
+Move 10 so it is below and to the right of 7
+Position 13 so it is below and to the right of 10
+Move 16 so it is below and to the right of 13
+Move block 13 above block 14.
+Move block 12 above block 13.
+Move block 11 above block 12.
+Move block 10 above block 11.
+Move block 6 to the left of block 10.
+Move block 4 below and to the left of block 6.
+Move block 2 to the left of block 4.
+Move block 1 below and to the left of block 2.
+Move block 8 half a row below block 11, and one column to the right of block 9.
+Move block 9 below block 8.
+Move block 17 to the same column as block 2, and one row above block 13.
+Move block 16 to the left of block 17.
+Move block 3 to the same row as block 16, and one column to the left of block 10.
+Move block 5 to the right of block 3.
+Move block 7 to the right of block 5.
+Move block 15 to the right of block 7.
+Move block 14 above block 15.
+Move 15 so it is below and to the left of 20
+Move 13 so it is below and to the left of 15
+Move 11 so it is below and to the left of 13
+Move 9 so it is to the left of 11
+Move 7 so it is to the left of 9
+Move 5 so it is above and to the left of 7
+Move 4 so it is above 5
+Move 3 so it is above 4
+Move 2 so it is above 3
+Move 1 so it is above 2 and below and to the left of 6
+Move 6 so it is above and to the right of 7. There should be a small space vertically between them. 6's bottom left corner should face 7's top edge midpoint.
+Position 8 so it is above and to the right of 6
+Position 10 so it is above and to the right of 8
+Move 12 so it is above and to the right of 10
+Move 14 so it is below and to the right of 12
+Move 16 so it is below and to the right of 14
+Move 17 so it is below 16
+Move 18 so it is below 17
+Move 19 so it is below 18
+Move 20 so it is below 19
+Move block 5 one row above block 10, and one column to the right of block 10.
+Move block 9 above and to the right of block 5.
+Move block 12 to the right of block 9.
+Move block 17 below and to the right of block 12.
+Move block 18 below block 17.
+Move block 13 below and to the left of block 18.
+Move block 14 below block 13.
+Move block 15 two spaces below block 14.
+Move block 19 below and to the right of block 15.
+Move block 20 below block 19.
+Move the 16 block all the way to the bottom, then slide it right until it is just below the 15 block the slide it up until its top right corner touches the bottom left corner of the 20 block.
+Slide the 11 block all the way down, then slide it right until it is directly below the 9 block, then slide it all the way to the bottom.
+Slide the 8 block down until it is even with the 16 block, then slide it right until it is directly below the 5 block.
+Move the 4 block down as far as it will go, then move it right as far as it will go, then move it up until its bottom right corner touches the top left corner of the 8 block.
+Move the 3 block up until it is even with the 19 block, then slide it right until it is directly above the 4 block.
+Slide the 7 block to the right until it is directly under the 1 block, then slide it up as far as it will go, then slide it right until it is directly over the 8 block.
+Slide the 10 block to the right until it is directly over the 11 block, then slide it down until its bottom corners touch the top corners of the 7 and 15 blocks.
+Move he 2 block all the way to the let to move it out of the way, then move the 6 block left until it is above the 1 block, then slide it down as far as it will go, then slide it right until it is directly above the 7 block.
+Move the 2 block to the left until it is directly above the 3 block, then slide it down until it is even with the 13 block.
+Slide the 1 block up until it is even with the 18 block, then slide it right until it is directly above the 2 block.
+Move 18 so it is directly between and half a block length above 6 and 13
+Move 19 so it is below 18
+Move 20 so it is below 19
+Move 16 so it is to the left of 20
+Move 17 so it is below 16
+Move 15 so it is in the column to the left of 16 and 17, but at the bottom of the table.
+Move 14 so it is above 15
+Move 13 so it is above 14
+Move 12 so it is above 13
+Move 11 so it is above 12 and below and to the left of 17
+Move 10 so it is to the left of 11
+Move 9 so it is below and to the left of 10
+Move 6 so it is to the left of 9
+Move 4 so it is to the left of 6
+Move 1 so it is above and to the left of 4
+Move 3 so it is above and to the right of 1
+Move 2 so it is above 3
+Move 5 so it is above and to the right of 2
+Move 8 so it is above and to the right of 5
+Move 7 so it is above 8
+Move 11 so it is above and to the left of 14
+Move 8 so it is to the left of 11
+Move 4 so it is to the left of 8
+Move 1 so it is above and to the left of 4
+Move 3 so it is to the right of 1
+Move 2 so it is above 3
+Move 7 so is it to the right of 2
+Move 10 so it is to the right of 7
+Move 13 so it is to the right of 10
+Move 16 so it is to the right of 13
+Move 5 so it is two block lengths above the bottom of the table and four block lengths from the left side of the table
+Move 6 so it is below 5
+Move 9 so it is to the right of 6
+Move 12 so it is to the right of 9
+Move 15 so it is to the right of 12
+Move 18 so it is above and to the right of 15
+Move 20 so it is above and to the right of 16
+Move 19 so it is above 20
+Move 17 so it is above and to the left of 19
+Move 14 so it is above and to the left of 17
+Move 18 so it is below and to the left of 20
+Move 16 so it is below and to the left of 18
+Move 14 so it is below and to the left of 16
+Move 12 so it is below and to the left of 14
+Move 10 so it is to the left of 12
+Move 8 so it is above and to the left of 10
+Move 6 so it is above and to the left of 8
+Move 4 so it is above and to the left of 6
+Move 2 so it is above and to the left of 4
+Move 1 so is it above 2
+Move 3 so it is below and to the right of 5
+Move 5 so it is above and to the right of 3
+Move 7 so it is above and to the right of 5
+Move 9 so it is above and to the right of 7
+Move 11 so it is to the right of 9
+Move 13 so it is below and to the right of 11
+Move 15 so it is below and to the right of 13
+Move 17 so it is below and to the right of 15
+Move 19 so it is below and to the right of 17
+Move 20 so it is below 19
+move block seven two spaces to the right of block 6
+move block 10 to the right of block 7
+move block 13 so it's top left corner touches the bottom right corner of block 10
+move block 16 to it's top left corner touches the bottom right corner of block 13
+move block 17 so it's bottom left corner touches the top right corner of block 11
+move block eleven one space down and to the left.
+move block 14 so it's bottom left corner touches the top right corner of block 11
+move block 18 two spaces to the right of block 11
+move block 19 below block 18
+slide block 20 three spaces to the right and up one space
+Take block 15 so that it touches the lower left corner of block 20
+Take block 12 and move it in between block 1 and 15 so that it touches the lower left corner of block 15
+take block 9 and isolate it on the lower right corner of the board
+take block 6 and move it so the bottom right corner touches the top left corner of block 9
+move block 5 so that both bottom corners touch the top 2 corners of block 6
+move block 4 so its bottom side touches the top side of block 5
+move block 8 so it in between block 4 and 11. the bottom corners of block 8 should almost touch block 4 and 11
+take block 3 and move near block 8 so that its bottom right corner almost touches block 8's top left corner
+move block 2 so that its bottom side completely lines up with the top side of block 3
+move block 1 so that its bottom side completely lines up with the top side of block 2
+Move 17 so it is two block lengths below the top edge of the table and two block lengths to the left of the right edge of the table
+Move 14 so it is to the left of 17
+Move 11 so it is to the left of 14
+Move 7 so it is to the left of 11
+Move 4 so it is to the left of 7
+Move 1 so it is to the left of 4
+Move 2 so it is below 1
+Move 5 so it is to the right of 2
+Move 8 so it is below and to the right of 5
+Move 9 so it is below 8
+Move 12 so it is below and to the right of 9
+Move 15 so it is to the right of 12
+Move 18 so it is below and to the right of 15
+Move 19 so it is below 18
+Move 16 so it is to the left of 19
+Move 13 so it is below and to the left of 16
+Move 10 so it is to the left of 13
+Move 6 so it is below and to the left of 10
+Move 3 so it is to the left of 6
+Pick up block 18 and place it north of block 19, block 18's bottom edge  should touch the top edge of block 19.
+Pick up block 17 and place it north of block 18. The bottom edge of block 17 should touch the top edge of block 18, now block 20, 19,18 and 17 are in a direct vertical line.
+Pick up block 16 and place it north of block 17. The bottom edge of block 16 should touch the top edge of block 17. Now blocks, 20,19,18,17 and 16 are in a direct vertical line.
+Pick up block 15 and place it north of block 16. The bottom edge of block 15 should fully touch the top edge of 16. Now blocks 20,19,18,17,16 and 15 are in a direct vertical line. The line 15-20 should look similar to a crossword puzzle in design. For example if you were looking for 15 down it would be a 6 letter word.
+Pick up block 14 and place it north of block 15. The bottom edge of block 14 should touch the top edge of block 15. Blocks 14-20 are in direct vertical line.
+Do not pick up block 11. Instead slide block 11 directly to the left (west) stop sliding block 11 the moment you completely pass block 14. So block 11 bottom right corner touches block 14 top left corner.
+Pick up block 8 and place it directly west(left) of block 11. The right side of block 8 should touch the left side of block 11. Block 8 and block 11 now form a direct horizontal line.
+Pick up block 5 and place it west of block 8 (left). The right side of block 5 should now touch the left side of block 8. Blocks 5, 8 and 11 now form a direct horizontal line.
+Pick up block 2 and place it west (left) of block 5. Block 2 right side should touch block 5 left side. Blocks 2, 5, 8 and 11 are now in a direct horizontal line.
+Pick up block 1 and place it west (left) of block 2. Block 1 right side should touch block 2 left side. Blocks 1, 2, 5, 8 and 11 are now in a direct horizontal line. Similar to a crossword puzzle line 1-11 should look like a Line 1 across for a 5 letter word.
+Move 12 so it is above and one block length to the right of 20
+Move 9 so it is to the left of 12
+Move 6 so it is to the left of 9
+Move 3 so it is to the left of 6
+Move 4 so it is one half block length below and to the right of 18
+Move 7 so it is to the right of 4
+Move 10 so it is above and to the right of 7
+Move 13 so it is to the right of 10
+Move 20 so it is to the right of 13
+Move 19 so it is above 20
+Move 7 so it is one block length to the right and two block lengths above 15
+Move 9 so it is above and to the right of 7
+Move 11 so it is above and to the right of 9
+Move 13 so it is to the right of 11
+Move 15 so it is to the right of 13
+Move 16 so it is below 15
+Move 17 so it is below 16
+Move 18 so it is below 17
+Move 19 so it is below 18
+Move 20 so it is below 19
+Move 14 so it is below and to the left of 20
+Move 12 so it is below and to the left of 14
+Move 10 so it is below and to the left of 12
+Move 8 so it is to the left of 10
+Move 6 so it is to the left of 8
+Move 5 so it is above 6
+Move 4 so it is above 5
+Move 3 so it is above 4
+Move 2 so it is above 3
+Move 1 so it is above 2 and below and to the left of 7
+Pick up box 15 from below the 10. Place it so that it completes the line.
+Pick up box 10 from the left side. Place is lined up directly to the left of box 15.
+Pick up box 11. Place is lined up directly below box 10.
+Pick up box 9. Place is lined up directly to the left of box 11.
+Pick up box 8. Place it lined up directly to the left of box 9.
+Pick up box 7. Place it lined up in the space between boxes 2 and 8.
+Pick up box 6. Place is lined up to the right of box 1.
+Pick up box 5. Place it lined up directly above boxes 6 and 7.
+Pick up box 4. Place it lined up directly above boxes 5, 6, and 7.
+Pick up box 3. Place it lined up directly above boxes 4, 5, 6, and 7.
+Move 1 so it is three block lengths to the left of 18
+Move 2 so it is below 1
+Move 20 so it is two block lengths below and one block length to the right of 14
+Move 19 so it is above 20
+Move 18 so it is above 19
+Move 17 so it is above 18
+Move 16 so it is above 17
+Move 12 so it is four block lengths above 16
+Move 13 so it is below 12
+Move 14 so it is below 13
+move block 15 one space to the right
+move block 11 so it's bottom right corner touches block 15's top left corner
+slide block seven down two spaces and than right till it connects to block 11
+move block three so it's right side touches block 7's left side
+move block one so it's top right corner touches block 3's bottom left corner
+move block two below block one
+move block four to the right of block 2
+move block 8 to the right of block 4
+Move block 12 directly next to block 8 aligning it vertically with block 8.
+Move block 13 directly below block 12 aligning it horizontally with block 12.
+Move block 14 directly below block 13 aligning it horizontally with 13.
+Move 9 so that its upper right corner is just touching the bottom left corner of block 14.
+Move block 10 so that it is directly below block 9 aligned horizontally with 9.
+Move block 5 so that its upper right corner is almost touching the lower left corner of block 10.
+Move block 6 so that it is directly below block 5 and aligned horizontally with block 5.
+Move block 16 one column to the right of block 4, and in the same row as block 17.
+Move block 15 above block 16.
+Move block 14 above block 15.
+Move block 18 to the right of block 14.
+Move block 20 above and to the right of block 18.
+Move block 19 above block 20.
+Move block 17 to the left of block 19.
+Move block 13 to the left of block 17.
+Move block 10 to the left of block 13.
+Move block 7 to the left of block 10.
+Take 3 and position it under the bottom left of 7.
+Take the 1 and position it under the left corner of 3.
+Move the 2 to the left so that it is directly under 1.
+Move the 4 so that it is touching the bottom right of 2 with its top left.
+Move the 8 around the board so that it is directly to the right of the 4.
+Move the 11 so that it is between 8 and 16.
+Slide 12 around so that it is directly under 11.
+Slide 9 to the right until its top right is touching the bottom left of 12.
+Move 5 to the right until it touches 9 with its top right corner.
+Take 6 down and to the right so that it is directly under 5.
+Slide block 5 so that stays on the same horizontal line and just to the left of block 6
+Move block 4 so that it is just above block 5
+Move block 3 so that it is just above block 4
+Move block 2 so that it is just above block 3
+Move block 1 so that it is just above block 2
+Move block 10 to the same horizontal line as block 8 and same vertical line as block 5
+Move block 9 so that the bottom right corner touches the top left corner of block 10
+Move block 8 so that it is above block 9
+Move block 7 so that it is above block 8
+Move block 6 so that it is above block 7
+Move block 2 above block 3.
+Move block 1 above block 2.
+Move block 5 to the right of block 1.
+Move block 4 above block 5.
+Move block 9 to the right of block 4.
+Move block 8 above block 9.
+Move block 7 above block 8.
+Move block 11 above and to the right of block 7.
+Move block 14 above and to the right of block 11.
+Move block 17 above and to the right of block 14.
+Move block 12 half a column to the right of block 16, and one row below block 13.
+Move block 15 to the right of block 12.
+Move block 18 to the right of block 15.
+Move block 20 below and to the right of block 18.
+Move block 19 below and to the left of block 20.
+Move block 16 below and to the left of block 19.
+Move block 13 below and to the left of block 16.
+Move block 10 to the left of block 13.
+Move block 6 to the left of block 10.
+Move block 3 above and to the left of block 6.
+Move block 18 to the right of block 13.
+Move block 17 above block 18.
+Move block 16 above block 17.
+Move block 12 to the left of block 16.
+Move block 8 to the left of block 12.
+Move block 4 to the left of block 8.
+Move block 5 below block 4.
+Move block 1 to the left of block 5.
+Move block 2 below block 1.
+Move block 3 below block 2.
+Pick up box 19 from the middle area. Place it in a spot that would fall between boxes 8 and 9 on the right side. There should be two empty box spaces between box 19 and boxes 8 and 9.
+Pick up box 20 from the top right corner. Place is lined up directly above and nearly touching box 20.
+Pick up box 7 the top right corner. Place it along the bottom edge so that it would be divided in half by the right side of box 17 above.
+Pick up box 11 from the right, middle area. Position it to the right of box 7 so the two are lined up and nearly touching.
+Pick up box 10 from the top left corner. Position it so that it is lined up above and nearly touching box 11.
+Pick up box 15 from the lower left corner. Position it so that it is to the upper right side of box 10. Box 15’s lower left corner should be nearly touching box 10’s top right corner.
+Pick up box 14 from the top left area. Position it so that it is lined up directly above and nearly touching box 15.
+Pick up box 6 from the middle. Position it to the upper left are of box 14 so that its bottom right corner is nearly touching the top left corner of box 14.
+Pick up box 9 from the middle of the right side. Place it on the right side of box 6 so that two are nearly touching and lined up.
+Pick up box 13 from the top left corner. Place it so that its bottom edge is lined up with the top edges of boxes 6, 9, and 19. The bottom corners of box 13 should be nearly touching the corners of boxes 9 and 19.
+Move 19 so it below and to the right of 12. 19 should be a block length from the right edge of the table and half a block length from the bottom edge of the table.
+Move 15 so it is to the left of 19
+Move 12 so it is to the left of15
+Move 9 so it is to the left of 12
+Move 6 so it is to the left of 9
+Move 3 so it is to the left of 6
+Move 2 so it is above 3
+Move 5  so it is above and to the right of 2
+Move 8 so it is above and to the right of 5
+Move 11 so it is to the right of 8
+Move block 14 above and to the right of block 11.
+Move block 18 above and to the right of block 14.
+Move block 17 above block 18.
+Move block 16 above block 17.
+Move block 13 to the left of block 16.
+Move block 10 to the left of block 13.
+Move block 7 to the left of block 10.
+Move block 4 to the left of block 7.
+Move block 1 to the left of block 4.
+Move 15 so it is two block rows above the bottom of the table  and four block rows to the left of the right side of the table
+Move 15 so it is above and to the right of 17
+Move 20 so it is above and to the right of 17
+Move 19 so it is above 20
+Move 18 so it is above 19
+Move 16 so it is to the left of 18
+Move 14 so it is below and to the left of 16
+Move 11 so it is below and to the left of 14
+Move 12 so it is below 11
+Move 13 so it is below 12
+Move 9 so it is to the left of 13
+Move 6 so it is to the left of 9
+Move 5 so it is above 6
+Move 4 so it is above 5
+Move 3 so it is above 4
+Move 2 so it is above 3
+Move 1 so it is above 2
+Move 8 so it is above and to the right of 1
+Move 7 so it is above 8
+Move 10 so it is above and to the right of 8
+Move block 4 to the same column as block 5, and the same row as block 15.
+Move block 7 to the right of block 4.
+Move block 11 to the right of block 7.
+Move block 10 above block 11.
+Move block 14 above and to the right of block 10.
+Move block 13 above block 14.
+Move block 9 above and to the right of block 13.
+Move block 6 to the left of block 9.
+Move block 3 to the left of block 6.
+Move block 1 below and to the left of block 3.
+Find the 2 box close to the right side, toward the middle, beside the 15 box. Move it to the spot that is 
+two blocks below the 9 box, its left half should be to the left of the 9 box’s right side.
+Find the 5 box at the top of the mat, it is located towards the middle. Place it so that its upper left corner is touching the lower right corner of the 2 box.
+Find the 8 box that is along the right side of the mat in the upper right corner. Place is lined up directly beside the 5 box.
+Find the 12 box in the upper right corner. Place is so that it is lined up directly to the right of the 8 box.
+Find the 16 box located to the left of the 12 box that was just moved. Move it so that its bottom left corner touches the top right corner of the 12 box.
+Find the 20 box that is located toward the middle of the mat. Place it so that its bottom left corner touches the top right corner of the 16 box.
+Find the 20 box that is located toward the middle of the mat. Place it so that its bottom left corner touches the top right corner of the 16 box.
+Find the 18 box along the left edge of the mat. Place it so that it is lined up directly above the 19 box.
+Find the 17 box toward the top of the mat. Place it so that it is lined up directly above the 18 box.
+Find the 15 box that is beside boxes 18 and 19. Place it so that it is lined up directly to the left of the 17 box.
+Find the 1 box in the lower middle area of the mat. Move it so that it is lined up diagonally below and to the left of box 18 with about the distance of a block between.
+Find box 2 along the left edge. Line it up below box 1, then slide it up against box 1.
+Find box 3 in the top right corner. Place it so that its left side touches the right side of box 2, they should be lined up.
+Find box 7 along the left side of the mat and toward the middle. Place it so that it lines up directly to the right of box 3.
+Find box 10 at the top of the mat, it is toward the middle. Place it directly to the left of box 7 and line the two up.
+Find box 13 in the lower right corner and place its bottom left corner touching the top right corner of box 10.
+Find box 17 toward the middle of the top of the mat. Place its bottom left corner touching box 13’s top right corner.
+Find box 16 in the bottom left corner and place it directly above and lined up with box 17.
+Find box 5 and move it directly right until its bottom right corner touches the top left corner of box 14.
+Find box 4 in the top right corner and place it lined up directly above box 5.
+Move block 8 to the right of block 4.
+Move block 11 to the right of block 8.
+Move block 14 to the right of block 11.
+Move block 18 to the right of block 14.
+Move block 19 below block 18.
+Move block 20 below block 19.
+Move block 15 below and to the left of block 20.
+Move block 12 below and to the left of block 15.
+Move block 9 to the left of block 12.
+Move block 6 to the left of block 9.
+Move 20 so it is below and to the left of 4
+Move 19 so it is to the left of 20
+Move 17 so it is to the left of 19
+Move 14 so it is to the left of 17
+Move 11 so it is below and to the left of 14
+Move 8 so it is to the left of 11
+Move 5 so it is below and to the left of 8
+Move 6 so it is below 5
+Move 9 so it is to the right of 6
+Move 12 so it is to the right of 9
+Move 15 so it is below and to the right of 12
+Position 18 so it is below and to the right of 15
+Move 16 so it is below and to the left of 18
+Move 13 so it is below and to the left of 16
+Move 10 so it is to the left of 13
+Move 7 so it is to the left of 10
+Move 4 so it is to the left of 7
+Move 3 so it is the left of 4
+Move 2 so it is above and to the left of 3
+Move 1 so it is above 2
+Find the 20 box in the top right corner. Move it to the left of box 13, which is on the right edge toward the bottom. The 20 box should be positioned so that its top edge is halfway down the 13 box with about a half a box between them.
+Find the 18 box located in the top right area. Position it so that it lines to the left of the 20 box.
+Find the 15 box in the middle of the mat, it is toward the left side of the middle. Position it so that it is lined up to the left of the 18 box.
+Find the 12 box in the middle of the mat, it is to the right of the 2 box. Position it so that it is lined with and to the left of the 12 box.
+Find the 9 box in the top right corner. Position it so that it is lined up with and to the left of the 12 box.
+Find the 3 box in the middle of the mat. Position it so that it is lined up to the left of box 9 with a space between the two the size of one box.
+Find the 6 box at the bottom of the mat. Position it so that it is between and lined up with boxes 3 and 9.
+Find the 5 box in the bottom left corner. Position it so that it is lined up directly above the 6 box.
+Find the 8 box along the top of the mat. Position it so that its bottom left corner touches the top right corner of the 5 box.
+Find the 11 box at the bottom of the mat. Position it so that it is lined up right next to the 8 box.
+Move block 14 above and to the right of block 11.
+Move block 17 above and to the right of block 14.
+Move block 19 above and to the right of block 17.
+Move block 16 above and to the left of block 19.
+Move block 13 to the left of block 16.
+Move block 10 to the left of block 13.
+Move block 7 to the left of block 10.
+Move block 4 to the left of block 7.
+Move block 2 below and to the left of block 4.
+Move block 1 to the left of block 2.
+Take block number fourteen. Move it one block width to the right, toward block ten. Now move it one block length up past block ten.
+Take block twelve and put it's right side as close to but not touching the left edge of block 14. The two should align parallel.
+Take block 13 and put it's upper edge completely flush with block twelve's lower edge.
+Move block ten such that it's right edge is completely flush and in line wiht block 13's left edge.
+take block 11 and make it's upper edge completely flush and in line with block 10's lower edge.
+Take block 8's right upper corner and make it touch block 11's lower left corner. Only the corners should be touching.
+Take block nine's upper edge and make it flush and in line with block 8's lower edge
+Move the 5 block directly to the left of block 9 so they touch
+Move the 6 block directly below the 5 block so they touch
+Move the 7 block directly below the 6 block so they touch
+Move the 2 block directly to the left of the 7 block so they touch
+Move the 3 block directly below the 2 block so they touch
+Move the 4 block directly below the 3 block so they touch
+Move the 1 block directly to the left of the 4 block so they touch
+Find box 14 in the bottom left corner. Move it so that it lines up in the corner created by boxes 10 and 15 on the right side of the mat.
+Find box 18 right up the 14 box just placed. Move it so it lines up in the corner created by boxes 14 and 19.
+Find box 17 in the middle of the mat. Position it so that it lines up above boxes 18 and 19.
+Find box 16 in the top left corner. Position it so that it lines up above boxes 17, 18, & 19.
+Find box 13 in the top right corner and  position it so that its bottom right corner is nearly touching the top left corner of box 16.
+Find box 12 in the bottom left area and position it so that it lines up directly above box 13.
+Find box 9 along the bottom edge. Position it so that its bottom right corner nearly touches the top left corner of box 12.
+Find box 6 to the right of box 13 placed earlier. Position it so that its bottom right corner nearly touches to top left corner of box 9.
+Find box 3 along the right edge and position it so that it lines up directly to the left of box 6.
+Find box 1 just to the lower left of box 3 just placed. Position it so that its top right corner nearly touches the bottom left corner of box 3.
+Find box 20 along the left edge of the mat. Place it in a spot that is about one box below box 10 and a half a box from the right edge.
+Find box 19 in the bottom leftmost corner. Line it up on the mat beside box 20 so that the two are nearly touching.
+Find box 15 at the bottom middle of the mat. Position it to the left of box 19 so that it lines up with boxes 19 and 20.
+Find box 11 in the middle of the mat, not far to the left of box 15 just placed. Position its top right corner so that it is nearly touching the bottom left corner of box 15.
+Find box 8 along the left edge. Position it to the left of box 11 so that it lines up with box 11.
+Find box 5 in the middle of the mat, kinda to the left. Position it to the left of box 8 so that it lines up with boxes 8 and 11.
+Find box 2 in the upper middle part of the mat and place its bottom right corner nearly touching the top left corner of box 5.
+Find box 4 toward the top middle of the mat. Position so that it’s bottom left corner and the top right corner of box 2 are nearly touching.
+Find box 7 in the top right area. Position it so that it is to the right and lined up with box 4.
+Find box 10 in the middle of the right side. Position is so that it is to the right of box 7 with it lining up with boxes 4 and 7.
+Place 7 under 13 so it's aligned with 12.
+Place 10 so it's upper left corner touches the lower right corner of 7.
+Place 12 to the right of and aligned with 10.
+Place 14 to the right of and aligned with 12.
+Place 18 so its lower left corner touches the upper right corner of 14.
+Place 17 above and aligned with 18.
+Place 16 above and aligned with 17.
+Place 15 above and aligned with 16.
+Place 13 so it's lower right corner touches the upper left corner of 15.
+slide block 11 up till it's one space above thirteen and right till it's one space to the left of block thirteen
+move block nine up two spaces and right two spaces
+move block six up till it's one row above block nine and right till it's one column to the left of block nine
+move block 8 up to the row above block six and right to the same column as block nine
+move block five until it's bottom right corner is touching block 8's top left corner
+move block four three spaces to the left
+move block three down one row and to the right two spaces.
+move block two to the left of block three
+move block one to the left of block two
+Move 5 so it is below 4
+Move 8 so it is below and to the right of 5
+Move 11 so it is to the right of 8
+Move 14 so it is above and to the right of 11
+Move 18 so it is above and to the right of 14
+Move 17 so it is above 18
+Move 16 so it is above 17
+Move 13 so it is above and to the left of 10
+Move 10 so it is below and to the left of 13
+Move block 15 so that it sits left of block 12 with a small space between the two.
+Move block 12 to the other side of block 15 and down just a bit.
+Move block 9 to be just below and to the left of block 12, so that their corners touch.
+Put block 6 to the left and below block 9 so that their corners touch.
+Move block 7 so that it sits directly under block 6.
+Move block 1 so that it sits below and to the left of block 7 so that their corners nearly touch.
+Place block 2 directly beneath block 1.
+Place block 3 directly beneath block 2.
+Place block 4 directly beneath block 3.
+Move block 19 above block 20.
+Move block 16 to the left of block 19.
+Move block 14 to the left of block 16.
+Move block 11 to the left of block 14.
+Move block 8 to the left of block 11.
+Move block 9 below block 8.
+Move block 5 to the left of block 9.
+Move block 2 to the left of block 5.
+Move block 3 below block 2.
+Move block 1 to the left of block 3.
+Move block 4 halfway off the bottom edge of the map, and in the same column as block 3.
+Move block 7 to the right of block 4.
+Move block 6 above block 7.
+Move block 10 above and to the right of block 6.
+Move block 13 above and to the right of block 10.
+Move block 12 above block 13.
+Move block 15 above and to the right of block 12.
+Move block 18 above and to the right of block 15.
+Move block 17 above block 18.
+Move block 20 to the right of block 17.
