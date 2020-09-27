@@ -16,12 +16,23 @@ import os
 logging.basicConfig(filename='errors.log', level=logging.DEBUG)
 
 class RuleBasedParser():
+    """Class that reads instructions from a .txt file, extracts the absolute
+    token and bigram frequencies, and tags the block numbers in an instruction 
+    as either a goal block or an area block, exporting the results as a csv.
+
+    Args:
+        filename (str): .txt-file containing the instructions.
+
+    Returns:
+        None
+
+    """
     def __init__(self, filename):
         self.filename = filename
         # name of the txt containing the instructions
         self.clean_instructions = []
         # cleaned instructions (no punctuation, no capital letters, numbers
-        # replaced with NUM)
+        # replaced with num)
         self.raw_instructions = []
         # raw instructions right from the txt
         self.token_counter = Counter()
@@ -40,6 +51,16 @@ class RuleBasedParser():
          # Contexts implying the following block is a goal block       
     
     def parse(self):    
+        """Method that reads the instructions from the txt, tags the 
+           block numbers, and writes the results to a csv.
+
+          Args:
+              None
+              
+          Returns:
+              None
+              
+        """
         self._read_from_txt()
         # read information from the instructions.txt
         self._tag_instruct_blocks()
@@ -48,6 +69,16 @@ class RuleBasedParser():
         # Write block inf to a csv
         
     def get_tokens_bigrams(self):
+        """Method that gets the absolute frequencies of tokens and bigrams,
+           exporting them as a csv.
+
+          Args:
+              None
+              
+          Returns:
+              None
+              
+        """
         self._count_bigrams(self._count_words_make_bigrams())
         # get absolute bigram and absolute token frequency
         self._write_stats_to_csv("bigrams.csv", True)
@@ -59,6 +90,7 @@ class RuleBasedParser():
 
           Args:
               gold_name (str) : Name of the gold standard csv.
+              
           Returns:
               precision, recall, 
               ((2*precision*recall)/(precision+recall)) (float) : 
@@ -79,24 +111,26 @@ class RuleBasedParser():
             total_blocks = 0
             # num of total blocks
             for line in gold_file:
-                split_line = line.split(";")
-                if split_line[0] in self.blocks.keys():
-                    if self.blocks[split_line[0]]['goal'] != '-':
-                        total_answers += 1
-                        # change from '-' implies given answer
-                    if self.blocks[split_line[0]]['area'] != '-':
-                        total_answers += 1
-                    if self.blocks[split_line[0]]['goal'] == split_line[1]:
-                        correct_blocks += 1
-                        # If gold standard and tagging match up: correct block
-                    gold_area = split_line[2].rstrip("\r\n")
-                    if self.blocks[split_line[0]]['area'] in \
+                if line != "\n" or line != "":
+                    split_line = line.split(";")
+                    if split_line[0] in self.blocks.keys():
+                        if self.blocks[split_line[0]]['goal'] != '-':
+                            total_answers += 1
+                            # change from '-' implies given answer
+                        if self.blocks[split_line[0]]['area'] != '-':
+                            total_answers += 1
+                        if self.blocks[split_line[0]]['goal'] == split_line[1]:
+                            correct_blocks += 1
+                            # If gold standard and tagging match up: 
+                            # correct block
+                        gold_area = split_line[2].rstrip("\r\n")
+                        if self.blocks[split_line[0]]['area'] in \
                                                           gold_area.split(","):
-                        correct_blocks += 1
-                        # if area block in list of gold standard area blocks:
-                        # one more correct block
-                    total_blocks += (len(split_line[1]) 
-                                     + len(gold_area.split(",")))
+                            correct_blocks += 1
+                            # if area block in list of gold standard area 
+                            # blocks: one more correct block
+                        total_blocks += (len(split_line[1]) 
+                                         + len(gold_area.split(",")))
         recall = correct_blocks/total_blocks
         precision = correct_blocks/total_answers
         return precision, recall, ((2*precision*recall)/(precision+recall))
@@ -113,7 +147,7 @@ class RuleBasedParser():
 
         """
         if self.raw_instructions == []:
-            logging.log("WARNING: no instructions were collected.")
+            logging.error("WARNING: no instructions were collected.")
             raise IndexError
         for raw_instr in self.raw_instructions:
             self.blocks[raw_instr] = {'goal' : '-', 'area' : '-'}
@@ -144,8 +178,8 @@ class RuleBasedParser():
                         # an area block if it there are more than 2 blocks
             
     def _read_from_txt(self):
-        """Method that reads a txt containing instructions, extracts and cleans
-           them for later usage.
+        """Method that reads a txt containing instructions, extracts and 
+           cleans them for later usage.
 
           Args:
               None
@@ -196,8 +230,10 @@ class RuleBasedParser():
                 # "block" and punctuation ignored
                     if token in self.token_counter.keys():
                         self.token_counter[token] += 1
+                        # add if dict entry for token already exists                        
                     else:
                         self.token_counter[token] = 1
+                        # make new dict entry
         return bigrams
                         
     def _count_bigrams(self, bigrams):
