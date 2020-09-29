@@ -14,7 +14,9 @@ The requirements can be found in the requirements.txt.
 1.  Install nltk with the following command: 
 `pip install nltk`
 2.  Run the following command in your terminal: 
-`python3 parse_anweisungen.py`
+`python3 parse_anweisungen.py <instruction file name> <gold standard file name>`
+with standard file names, the command is the following:
+`python3 parse_anweisungen.py instructions.txt gold_standard.csv`
 3. Optional: get unit test results:
 `python3 rulebasedparser_unittest.py`
 
